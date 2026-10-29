@@ -32,6 +32,8 @@ For counts and rates by area, start with `summary`.
 
 [COLUMNS.md](COLUMNS.md) contains definitions for every column. You can also search this release at [sir.diagramchasing.fun](https://sir.diagramchasing.fun).
 
+[Sample data notebook](explore.ipynb) contains example of analysis with this data.
+
 ## Methodology
 
 The ECI publishes the roll at [voters.eci.gov.in](https://voters.eci.gov.in/download-eroll?stateCode=S10). We downloaded every part, read each page with OCR and split the pages into entries. Apple Vision and RapidOCR were used in parallel to efficiently process the large number of entries. 
