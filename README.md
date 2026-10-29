@@ -30,7 +30,7 @@ For counts and rates by area, start with `summary`.
 
 [DOWNLOADS.md](DOWNLOADS.md) links every file in CSV and Parquet formats. 
 
-[COLUMNS.md](COLUMNS.md) contains definitions for every column. You can also search this release at [sir.diagramchasing.fun](https://sir.diagramchasing.fun).
+[COLUMNS.md](COLUMNS.md) contains definitions for every column.
 
 [Sample data notebook](explore.ipynb) contains example of analysis with this data.
 
@@ -46,7 +46,7 @@ This data is published under data under [Open Database License 1.0](LICENSE). Yo
 
 Cite it as:
 
-> Diagram Chasing (2026). *Karnataka SIR 2026 voter rolls: de-identified electoral roll dataset*, release 2026-10-28-statewide.3 [Data set]. https://sir.diagramchasing.fun
+> Diagram Chasing (2026). *Karnataka SIR 2026 voter rolls: de-identified electoral roll dataset*, release 2026-10-28-statewide.3 [Data set]. https://github.com/diagram-chasing/karnataka-sir-voter-rolls-data
 
 ## Contact
 
