@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this dataset, cite it as below."
+title: "Karnataka SIR 2026 voter rolls: de-identified electoral roll dataset"
+type: dataset
+version: "2026-10-28-statewide.3"
+date-released: "2026-10-29"
+authors:
+  - name: "Diagram Chasing"
+    website: "https://sir.diagramchasing.fun"
+url: "https://sir.diagramchasing.fun"
+repository-code: "https://github.com/diagramchasing/karnataka-sir-voter-rolls-data"
+license: ODbL-1.0
+abstract: "Every entry in Karnataka's final electoral roll from the 2026 Special Intensive Revision (English edition, revision 1), for all 224 assembly constituencies. Diagram Chasing processed the Election Commission of India's PDFs with OCR, removed names, relatives' names, house numbers and voter IDs, and added summary tables. 45,643,915 entries across 60,923 parts."
+keywords:
+  - electoral roll
+  - Karnataka
+  - India
+  - Election Commission of India
+  - Special Intensive Revision
+  - open data
+references:
+  - type: data
+    title: "Final electoral roll, Special Intensive Revision 2026, Karnataka"
+    authors:
+      - name: "Election Commission of India"
+    url: "https://voters.eci.gov.in/download-eroll?stateCode=S10"
