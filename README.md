@@ -8,7 +8,7 @@ Originally published as individual PDFs, called "parts", we've processed 60,923 
 
 ## Number of deletions 
 
-Additions, deletions and modifications relative to this edition. For example, the headline number in the news is [99.32 lakh names struck off the voter list in Karnataka](https://www.thehindu.com/news/national/karnataka/sir-over-9932-lakh-names-struck-off-voter-list-in-karnataka/article71629941.ece), but the deletions in this dataset amounts to around 1,88,324 people only. This difference occurs because an initial 1.07 crore (107.96 lakh) voters were excluded when the draft roll was first published. Following this, a "Claims and Objections" period allowed voters to dispute changes, leading to 10.08 lakh additions and 1.88 lakh final deletions.
+Additions, deletions and modifications relative to this edition. For example, the headline number in the news is [99.32 lakh names struck off the voter list in Karnataka](https://www.thehindu.com/news/national/karnataka/sir-over-9932-lakh-names-struck-off-voter-list-in-karnataka/article71629941.ece), but the deletions in this dataset amounts to around 1,88,324 people only. This difference occurs because an initial 1.07 crore (107.96 lakh) voters were excluded when the draft roll was first published. Following this, a "Claims and Objections" period allowed voters to dispute changes, leading to 10.08 lakh additions and 1.88 lakh final deletions. ([source](https://ceo.karnataka.gov.in/uploads/PDF%20FINAL%20AC%20WISE%2027_1793094730.pdf))
 
 To come to the final headline number through independent analysis, this dataset must be compared to a separate dataset of the pre-revision voter rolls. 
 

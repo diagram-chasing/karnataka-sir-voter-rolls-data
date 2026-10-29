@@ -1,12 +1,6 @@
 # Downloads
 
-Release `2026-10-28-statewide.3`, published 2026-10-29. Every link below is the file itself. All files sit under one address:
-
-```
-https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/
-```
-
-Each table comes as CSV and as Parquet, with the same rows in both. All 469 files together are 8.9 GB. [`files.csv`](files.csv) and [`manifest.json`](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/manifest.json) give every file's address, size and SHA-256 checksum. A file whose checksum differs from the listed value is damaged, because we never change a file after we publish a release. The file [`latest.json`](https://data.sir.diagramchasing.fun/latest.json) names the most recent release.
+Release `2026-10-28-statewide.3`, published 2026-10-29. Each revision to this dataset will be made under a new version.
 
 ## Tables by area, part and constituency
 
@@ -22,7 +16,7 @@ Each table comes as CSV and as Parquet, with the same rows in both. All 469 file
 | `data_quality` | One constituency | [31 KB](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/data_quality.csv) | [16 KB](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/data_quality.parquet) |
 | `corrections` | One entry with an approved review decision. This release has no rows. | [0 KB](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/corrections.csv) | [0 KB](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/corrections.parquet) |
 
-## Every entry in one file
+## Full dataset
 
 | File | One row is | Parquet |
 |---|---|---|
@@ -30,7 +24,7 @@ Each table comes as CSV and as Parquet, with the same rows in both. All 469 file
 
 This file comes as Parquet only. The same rows as CSV are split by constituency below.
 
-## Every entry, one file per constituency
+## Per constituency
 
 Each file has one row per entry on the roll in that constituency. Constituency numbers (`ac`) run from 1 to 224, and the file names pad them to three digits, as in `electors-ac-007.csv`.
 
@@ -260,11 +254,3 @@ Each file has one row per entry on the roll in that constituency. Constituency n
 | 222 | Kollegal | CHAMARAJNAGAR | 198,465 | [28 MB](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/electors/electors-ac-222.csv) | [5 MB](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/electors/electors-ac-222.parquet) |
 | 223 | Chamarajanagar | CHAMARAJNAGAR | 197,376 | [28 MB](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/electors/electors-ac-223.csv) | [5 MB](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/electors/electors-ac-223.parquet) |
 | 224 | Gundlupet | CHAMARAJNAGAR | 200,589 | [29 MB](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/electors/electors-ac-224.csv) | [5 MB](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/electors/electors-ac-224.parquet) |
-
-## Documentation files
-
-| File | What it holds |
-|---|---|
-| [`data-dictionary.json`](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/data-dictionary.json) | Every column of every table, in machine-readable form |
-| [`manifest.json`](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/manifest.json) | Every file with its size, SHA-256 checksum and the key id of the hashed columns |
-| [`README.md`](https://data.sir.diagramchasing.fun/releases/2026-10-28-statewide.3/README.md) | Release notes |
