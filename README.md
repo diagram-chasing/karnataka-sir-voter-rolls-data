@@ -2,7 +2,7 @@
 
 Digitized and tidy dataset of Karnataka's final electoral roll from the 2026 Special Intensive Revision (SIR) by the Election Commission of India. 
 
-Originally published as individual PDFs, called "parts", we've processed 60,923 parts of the English edition, revision 1. Each row is one entry on the roll and this dataset 45,643,915 entries across all 224 assembly constituencies in Karnataka. 
+Originally published as individual PDFs, called "parts", we've processed 60,923 parts of the English edition, revision 1. Each row is one entry on the roll and this dataset contains 45,643,915 entries across all 224 assembly constituencies in Karnataka. 
 
 **Note**: This data was processed with OCR software and entries have not been manually verified by hand. Each entry comes with a confidence score and review flags to describe potential issues for that piece of data. The `data_quality` table sums these up for each constituency. Therefore, consider this **a provisional release** and subject to further review.
 
@@ -32,21 +32,19 @@ For counts and rates by area, start with `summary`.
 
 [COLUMNS.md](COLUMNS.md) contains definitions for every column. You can also search this release at [sir.diagramchasing.fun](https://sir.diagramchasing.fun).
 
-## Source and method
+## Methodology
 
 The ECI publishes the roll at [voters.eci.gov.in](https://voters.eci.gov.in/download-eroll?stateCode=S10). We downloaded every part, read each page with OCR and split the pages into entries. Apple Vision and RapidOCR were used in parallel to efficiently process the large number of entries. 
 
-To prevent misuse, we have removed the name, relatives, name, address and voter ID from each entry. The voter ID has been hashed to prevent identification, but still serves as a unique ID for each entry. If we publish further datasets, this hash will remain consistent to allow comparison. Each part, page and serial number is kept so that it may be reference with the original ECI's PDFs if needed.
+To prevent misuse, we have removed the name, relatives, name, address and voter ID from each entry. The voter ID has been hashed to prevent identification, but still serves as a unique ID for each entry. If we publish further datasets, this hash will remain consistent to allow comparison. However, part, page and serial number is kept so that it may be reference with the original ECI's PDFs if needed.
 
-## Licence and citation
+## Licence
 
 This data is published under data under [Open Database License 1.0](LICENSE). You may share and adapt it if you credit Diagram Chasing and release any database you build from it under the same licence.
 
 Cite it as:
 
 > Diagram Chasing (2026). *Karnataka SIR 2026 voter rolls: de-identified electoral roll dataset*, release 2026-10-28-statewide.3 [Data set]. https://sir.diagramchasing.fun
-
-[CITATION.cff](CITATION.cff) holds the same citation for reference managers.
 
 ## Contact
 
